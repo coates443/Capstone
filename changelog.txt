@@ -1,0 +1,31 @@
+v0.3 (12-10-2025) {
+  Added functions to end Charge, Discharge, and PCR triggers
+  Removed endPulse()
+  Added triggerTimings()
+} /* v0.3 (11-23-2025) */
+v0.3 (11-23-2025) {
+  Added 5 new functions to control timing during test
+  Added charge and discharge trigger pins
+  Added calculations for timings in main loop
+} /* v0.3 (11-23-2025) */
+v0.2 (11-16-2025) {
+  Removed NumberInput struct (replaced with the two added functions)
+  Added Menu class
+  Added keyToString function
+  Added concatenateKeys function
+  Added Comments
+} /* v0.2 (11-16-2025) */
+v0.1 (11-09-2025) {
+  Added pin for RF start trigger
+  Changed pin names for keypad pins
+  Added keypad.h library for non-blocking keypad reads
+  Started writing NumberInput struct to handle conversion of char keypad inputs to usable floats
+  Edited various comments
+}
+v0.0 (11-02-2025) { 
+  Added top header comment
+  Added pin definitions section
+  Added variable declarations section
+  Added outputPRIs function
+  Added other descriptive comments
+} /* v0.0 (11-02-2025) */
