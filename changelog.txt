@@ -1,3 +1,30 @@
+5-6-2026:
+  Added #include <ADC.h>
+  Added #include <ADC_util.h>
+  Added ADC *adc = new ADC();
+  Added temporary Keypad1, Keypad2, etc. for sending power through keypad
+  Added current monitor measurements and logic to loop() method
+4-26-2026:
+  Added user input to the loop method that waits for and detects button pushes
+  Added outputPRIs(PRF) to the loop method
+  Added currentState and lastState booleans to check for RF pulses
+  Added while loop to loop method that sends out PCRTrigger() after delayMicroseconds(timing)
+4-19-2026:
+  Added getPRF() method
+  Added displayPRF(float PRF) method
+  Added int timing
+  Added displayShortOrLongChoice()
+  Added chooseLongOrShort()
+4-12-2026:
+  Added ILI9341_t3.h library for the display
+  Added push buttons for temporary user input
+  Added #include <time.h>
+  Added volatile int  count
+  Added elapsedMillis t
+  Added bool lastState
+  Added bool currentState
+
+
 v0.3 (12-10-2025) {
   Added functions to end Charge, Discharge, and PCR triggers
   Removed endPulse()
